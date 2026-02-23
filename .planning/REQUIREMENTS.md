@@ -123,53 +123,53 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| FOUN-01 | — | Pending |
-| FOUN-02 | — | Pending |
-| FOUN-03 | — | Pending |
-| FOUN-04 | — | Pending |
-| FOUN-05 | — | Pending |
-| LLMT-01 | — | Pending |
-| LLMT-02 | — | Pending |
-| LLMT-03 | — | Pending |
-| LLMT-04 | — | Pending |
-| LLMT-05 | — | Pending |
-| ERRC-01 | — | Pending |
-| ERRC-02 | — | Pending |
-| ERRC-03 | — | Pending |
-| ERRC-04 | — | Pending |
-| ERRC-05 | — | Pending |
-| SYSM-01 | — | Pending |
-| SYSM-02 | — | Pending |
-| SYSM-03 | — | Pending |
-| SYSM-04 | — | Pending |
-| SYSM-05 | — | Pending |
-| SYSM-06 | — | Pending |
-| STOR-01 | — | Pending |
-| STOR-02 | — | Pending |
-| STOR-03 | — | Pending |
-| STOR-04 | — | Pending |
-| STOR-05 | — | Pending |
-| STOR-06 | — | Pending |
-| STOR-07 | — | Pending |
-| PUSH-01 | — | Pending |
-| PUSH-02 | — | Pending |
-| PUSH-03 | — | Pending |
-| PUSH-04 | — | Pending |
-| PUSH-05 | — | Pending |
-| PUSH-06 | — | Pending |
-| PUSH-07 | — | Pending |
-| PUSH-08 | — | Pending |
-| LOGP-01 | — | Pending |
-| LOGP-02 | — | Pending |
-| LOGP-03 | — | Pending |
-| LOGP-04 | — | Pending |
-| LOGP-05 | — | Pending |
+| FOUN-01 | 1 | Pending |
+| FOUN-02 | 1 | Pending |
+| FOUN-03 | 1 | Pending |
+| FOUN-04 | 1 | Pending |
+| FOUN-05 | 1 | Pending |
+| LLMT-01 | 2 | Pending |
+| LLMT-02 | 2 | Pending |
+| LLMT-03 | 2 | Pending |
+| LLMT-04 | 2 | Pending |
+| LLMT-05 | 2 | Pending |
+| ERRC-01 | 2 | Pending |
+| ERRC-02 | 2 | Pending |
+| ERRC-03 | 2 | Pending |
+| ERRC-04 | 2 | Pending |
+| ERRC-05 | 2 | Pending |
+| SYSM-01 | 3 | Pending |
+| SYSM-02 | 3 | Pending |
+| SYSM-03 | 3 | Pending |
+| SYSM-04 | 3 | Pending |
+| SYSM-05 | 3 | Pending |
+| SYSM-06 | 3 | Pending |
+| STOR-01 | 1 | Pending |
+| STOR-02 | 1 | Pending |
+| STOR-03 | 2 | Pending |
+| STOR-04 | 2 | Pending |
+| STOR-05 | 1 | Pending |
+| STOR-06 | 3 | Pending |
+| STOR-07 | 3 | Pending |
+| PUSH-01 | 4 | Pending |
+| PUSH-02 | 4 | Pending |
+| PUSH-03 | 4 | Pending |
+| PUSH-04 | 4 | Pending |
+| PUSH-05 | 4 | Pending |
+| PUSH-06 | 4 | Pending |
+| PUSH-07 | 4 | Pending |
+| PUSH-08 | 4 | Pending |
+| LOGP-01 | 5 | Pending |
+| LOGP-02 | 5 | Pending |
+| LOGP-03 | 5 | Pending |
+| LOGP-04 | 5 | Pending |
+| LOGP-05 | 5 | Pending |
 
 **Coverage:**
 - v1 requirements: 36 total
-- Mapped to phases: 0
-- Unmapped: 36
+- Mapped to phases: 36
+- Unmapped: 0
 
 ---
 *Requirements defined: 2026-02-23*
-*Last updated: 2026-02-23 after initial definition*
+*Last updated: 2026-02-23 after roadmap creation — all 36 v1 requirements mapped to phases*
