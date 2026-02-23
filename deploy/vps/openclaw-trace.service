@@ -1,0 +1,19 @@
+[Unit]
+Description=OpenClaw Trace Sidecar
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/openclaw-trace
+EnvironmentFile=/etc/openclaw-trace/openclaw-trace.env
+Restart=always
+RestartSec=3
+KillSignal=SIGTERM
+TimeoutStopSec=20
+WorkingDirectory=/var/lib/openclaw-trace
+StandardOutput=append:/var/log/openclaw-trace/openclaw-trace.log
+StandardError=append:/var/log/openclaw-trace/openclaw-trace.log
+
+[Install]
+WantedBy=multi-user.target

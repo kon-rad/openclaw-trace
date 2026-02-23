@@ -1,0 +1,17 @@
+# Add this to OpenClaw start.sh for sidecar mode (non-systemd environments):
+#
+#   if command -v openclaw-trace >/dev/null 2>&1; then
+#     export OCT_DB_PATH="${OCT_DB_PATH:-/data/openclaw-trace.db}"
+#     export OCT_PORT="${OCT_PORT:-9090}"
+#     export OCT_PUSH_INTERVAL="${OCT_PUSH_INTERVAL:-5m}"
+#     export OCT_PUSH_MAX_PAYLOAD_BYTES="${OCT_PUSH_MAX_PAYLOAD_BYTES:-5242880}"
+#     export OCT_LOG_PATH="${OCT_LOG_PATH:-/data/logs/openclaw.log}"
+#     openclaw-trace >> /data/logs/openclaw-trace.log 2>&1 &
+#     OCT_TRACE_PID=$!
+#   fi
+#
+#   # On shutdown:
+#   if [[ -n "${OCT_TRACE_PID:-}" ]]; then
+#     kill -TERM "${OCT_TRACE_PID}" 2>/dev/null || true
+#     wait "${OCT_TRACE_PID}" 2>/dev/null || true
+#   fi
