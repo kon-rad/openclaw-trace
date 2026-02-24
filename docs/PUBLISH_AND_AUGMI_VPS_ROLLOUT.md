@@ -33,7 +33,8 @@ sudo nano /etc/openclaw-trace/openclaw-trace.env
 ```
 
 Set at minimum:
-- `OCT_PUSH_ENDPOINT` to Augmi ingest endpoint
+- `OCT_PUSH_ENDPOINT` to Augmi ingest endpoint:
+  `https://augmi.world/api/agents/<AGENT_ID>/trace/ingest?token=<PUSH_TOKEN>`
 - `OCT_DB_PATH` to persistent volume path
 - `OCT_LOG_PATH` to OpenClaw gateway log path (optional parsing mode)
 
